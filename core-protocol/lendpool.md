@@ -84,7 +84,7 @@ Function to auction a non-healthy position collateral-wise. The caller (liquidat
 
 ### redeem
 
-function redeem(address nftAsset, uint256 nftTokenId)
+function redeem(address nftAsset, uint256 nftTokenId, uint256 bidFine)
 
 Function to redeem a non-healthy NFT loan which state is in Auction. The caller must be borrower of loan. The borrower can redeem his own things before the redemption time expires.
 
@@ -92,6 +92,8 @@ Function to redeem a non-healthy NFT loan which state is in Auction. The caller 
 | -------------- | ------- | ----------------------------------------------------- |
 | nftAsset       | address | The address of the underlying NFT used as collateral  |
 | nftTokenId     | uint256 | The token ID of the underlying NFT used as collateral |
+| amount         | uint256 | The amount to repay the debt                          |
+| bidFine        | uint256 | The amount of bid fine                                |
 
 **Return Values**
 
@@ -105,18 +107,17 @@ Function to redeem a non-healthy NFT loan which state is in Auction. The caller 
 
 Function to liquidate a non-healthy NFT loan which state is in Auction. The caller (liquidator) buy collateral asset of the user getting liquidated, and receives the collateral asset.
 
-| Parameter Name | Type    | Description                                                                                                                                                                                          |
-| -------------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| nftAsset       | address | The address of the underlying NFT used as collateral                                                                                                                                                 |
-| nftTokenId     | uint256 | The token ID of the underlying NFT used as collateral                                                                                                                                                |
-| onBehalfOf     | address | Address of the user who will get the underlying NFT, same as msg.sender if the user wants to receive them on his own wallet, or a different address if the beneficiary of NFT is a different wallet. |
+| Parameter Name | Type    | Description                                                     |
+| -------------- | ------- | --------------------------------------------------------------- |
+| nftAsset       | address | The address of the underlying NFT used as collateral            |
+| nftTokenId     | uint256 | The token ID of the underlying NFT used as collateral           |
+| amount         | uint256 | The extra amount to repay debt. It should be 0 in most of case. |
 
 **Return Values**
 
-| Parameter Name | Type    | Description                                                      |
-| -------------- | ------- | ---------------------------------------------------------------- |
-| liquidatePrice | uint256 | The underlying liquidate amount (price of buying NFT collateral) |
-| paybackAmount  | uint256 | The underlying payback amount repaid                             |
+| Parameter Name | Type    | Description                        |
+| -------------- | ------- | ---------------------------------- |
+| extraAmount    | uint256 | The underlying extra amount repaid |
 
 ## View Methods
 

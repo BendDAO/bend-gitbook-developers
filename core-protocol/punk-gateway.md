@@ -45,23 +45,26 @@ Auction a un-health punk loan with ERC20 reserve.
 
 ### redeem
 
-**function redeem(uint256 punkIndex)**
+**function redeem(uint256 punkIndex, uint256 amount, uint256 bidFine)**
 
 Redeems a un-health CryptoPunks loan with ERC20 reserve.&#x20;
 
 | Parameter Name | Type    | Description                                     |
 | -------------- | ------- | ----------------------------------------------- |
 | punkIndex      | uint256 | The index of the CryptoPunks used as collateral |
+| amount         | uint256 | The amount of repaid debt                       |
+| bidFine        | uint256 | The amount of bid fine                          |
 
 ### liquidate
 
-**function liquidate(uint256 punkIndex)**
+**function liquidate(uint256 punkIndex, uint256 amount)**
 
 Liquidates a un-health CryptoPunks loan with ERC20 reserve.
 
 | Parameter Name | Type    | Description                                     |
 | -------------- | ------- | ----------------------------------------------- |
 | punkIndex      | uint256 | The index of the CryptoPunks used as collateral |
+| amount         | uint256 | The extra amount of repaid debt                 |
 
 ### borrowETH
 
@@ -100,20 +103,23 @@ Auctions a un-health punk loan with native ETH.
 
 ### redeemETH
 
-**function redeemETH(uint256 punkIndex)**
+**function redeemETH(uint256 punkIndex, uint256 amount, uint256 bidFine)**
 
 Redeems a un-health punk loan with native ETH.
 
 | Parameter Name | Type    | Description                                     |
 | -------------- | ------- | ----------------------------------------------- |
 | punkIndex      | uint256 | The index of the CryptoPunks used as collateral |
+| amount         | uint256 | The amount of repaid debt                       |
+| bidFine        | uint256 | The amount of bid fine                          |
 
 ### liquidateETH
 
-**function liquidateETH(uint256 punkIndex)**
+**function liquidateETH(uint256 punkIndex, uint256 amount)**
 
 Liquidates a un-health punk loan with native ETH.
 
 |           |         |                                                 |
 | --------- | ------- | ----------------------------------------------- |
 | punkIndex | uint256 | The index of the CryptoPunks used as collateral |
+| amount    | uint256 | The extra amount of repaid debt                 |

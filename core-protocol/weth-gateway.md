@@ -68,7 +68,7 @@ Auction a borrow on the WETH reserve.
 
 ### redeemETH
 
-**function redeemETH( address nftAsset, uint256 nftTokenId)**
+**function redeemETH( address nftAsset, uint256 nftTokenId, uint256 amount, uint256 bidFine)**
 
 Redeems a borrow on the WETH reserve.
 
@@ -76,10 +76,12 @@ Redeems a borrow on the WETH reserve.
 | -------------- | ------- | ----------------------------------------------------- |
 | nftAsset       | address | The address of the underlying NFT used as collateral  |
 | nftTokenId     | uint256 | The token ID of the underlying NFT used as collateral |
+| amount         | uint256 | The amount to repay the debt                          |
+| bidFine        | uint256 | The amount of bid fine                                |
 
 ### liquidateETH
 
-**function liquidateETH( address nftAsset, uint256 nftTokenId)**
+**function liquidateETH( address nftAsset, uint256 nftTokenId, uint256 amount)**
 
 Liquidates a borrow on the WETH reserve.
 
@@ -87,3 +89,4 @@ Liquidates a borrow on the WETH reserve.
 | -------------- | ------- | ----------------------------------------------------- |
 | nftAsset       | address | The address of the underlying NFT used as collateral  |
 | nftTokenId     | uint256 | The token ID of the underlying NFT used as collateral |
+| amount         | uint256 | The extra amount to repay the debt                    |
