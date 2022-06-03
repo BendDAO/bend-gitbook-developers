@@ -51,7 +51,7 @@ The below information can also be programmatically fetched by calling getReserve
 
 {% tabs %}
 {% tab title="Mainnet" %}
-| Asset | Underlying Address                                                                                                    | bendToken Address                                                                                                          | debtToken Address                                                                                                          |
+| Asset | Original Reserve Address                                                                                              | bendToken Address                                                                                                          | debtToken Address                                                                                                          |
 | ----- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | ETH   | Refer to WETH below or [WETH Gateway](../core-protocol/weth-gateway.md#methods)                                       | Refer to WETH below                                                                                                        | Refer to WETH below                                                                                                        |
 | WETH  | [0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) | [0xeD1840223484483C0cb050E6fC344d1eBF0778a9](https://etherscan.io/address/0xeD1840223484483C0cb050E6fC344d1eBF0778a9#code) | [0x87ddE3A3f4b629E389ce5894c9A1F34A7eeC5648](https://etherscan.io/address/0x87ddE3A3f4b629E389ce5894c9A1F34A7eeC5648#code) |
@@ -71,7 +71,7 @@ The below information can also be programmatically fetched by calling getNftToke
 
 {% tabs %}
 {% tab title="Mainnet" %}
-| Asset       | Underlying Address                                                                                                          | boundNFT Address                                                                                                           |
+| Asset       | Original NFT Address                                                                                                        | boundNFT Address                                                                                                           |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | CryptoPunks | Refer to WPUNKS below or [Punk Gateway](../core-protocol/punk-gateway.md#borroweth)                                         | Refer to WPUNKS below                                                                                                      |
 | WPUNKS      |  [0xb7F7F6C52F2e2fdb1963Eab30438024864c313F6](https://etherscan.io/address/0xb7F7F6C52F2e2fdb1963Eab30438024864c313F6#code) | [0x6c415673C79b31aCA38669AD9fb5cdb7012C0e8e](https://etherscan.io/address/0x6c415673C79b31aCA38669AD9fb5cdb7012C0e8e#code) |
