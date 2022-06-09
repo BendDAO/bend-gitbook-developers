@@ -24,7 +24,8 @@
 
 ## DEPLOYED CONTRACTS
 
-* [Main Market](deployed-contracts/main-market.md)
+* [Lending Protocol](deployed-contracts/lending-protocol.md)
+* [Exchange Protocol](deployed-contracts/exchange-protocol.md)
 
 ## GETTING STARTED
 
