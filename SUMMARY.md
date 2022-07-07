@@ -17,6 +17,10 @@
 * [WETH Gateway](core-protocol/weth-gateway.md)
 * [Punk Gateway](core-protocol/punk-gateway.md)
 
+## BoundNFT Protocol
+
+* [BoundNFT Registry](boundnft-protocol/boundnft-registry.md)
+
 ## PROTOCOL GOVERNANCE
 
 * [Voting & Governance](protocol-governance/voting-and-governance.md)

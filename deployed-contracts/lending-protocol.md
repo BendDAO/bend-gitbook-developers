@@ -23,6 +23,7 @@ For contract addresses of other markets, see the sidebar under [Deployed Contrac
 | PunkGateway              | [0xeD01f8A737813F0bDA2D4340d191DBF8c2Cbcf30](https://etherscan.io/address/0xeD01f8A737813F0bDA2D4340d191DBF8c2Cbcf30#code) |
 | BendProtocolDataProvider | [0x0B54cDf07D5467012A2D5731c5F87f9c6945bEa9](https://etherscan.io/address/0x0b54cdf07d5467012a2d5731c5f87f9c6945bea9#code) |
 | UiPoolDataProvider       | [0x5250cCE48E43AB930e45Cc8E71C87Ca4B51244cf](https://etherscan.io/address/0x5250cCE48E43AB930e45Cc8E71C87Ca4B51244cf)      |
+| BNFTRegistry             | [0x79d922DD382E42A156bC0A354861cDBC4F09110d](https://etherscan.io/address/0x79d922DD382E42A156bC0A354861cDBC4F09110d)      |
 {% endtab %}
 
 {% tab title="Rinkeby" %}
