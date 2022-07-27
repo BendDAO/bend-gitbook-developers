@@ -1,14 +1,14 @@
 # Protocol Overview
 
-The Bend Protocol repository can be found on [Github here](https://github.com/BendDAO/bend-protocol).
+The BendDAO Lending Protocol repository can be found on [Github here](https://github.com/BendDAO/bend-protocol).
 
 ## Main Contracts
 
 {% hint style="info" %}
-Both LendPoolAddressesProvider and LendPoolAddressesProviderRegistry control the upgradeability of the protocol, including reserves and NFTs listings and changes to protocol parameters. BEND holders will be in control of both, via Bend Protocol Governance.
+Both LendPoolAddressesProvider and LendPoolAddressesProviderRegistry control the upgradeability of the protocol, including reserves and NFTs listings and changes to protocol parameters. BEND holders will be in control of both, via BendDAO Governance.
 {% endhint %}
 
-The main contracts in Bend and their purposes are:
+The main contracts in BendDAO and their purposes are:
 
 ### LendPool
 

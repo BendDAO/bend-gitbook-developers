@@ -2,20 +2,24 @@
 
 * [Introduction](README.md)
 
-## Core Protocol
+## Lending Protocol
 
-* [Protocol Overview](core-protocol/protocol-overview.md)
-* [LendPool](core-protocol/lendpool.md)
-* [LendPoolLoan](core-protocol/lendpoolloan.md)
-* [LendPoolAddressProvider](core-protocol/lendpooladdressprovider.md)
-* [bendTokens](core-protocol/bendtokens.md)
-* [debtTokens](core-protocol/debttokens.md)
-* [boundNFTs](core-protocol/boundnfts.md)
-* [BEND Token](core-protocol/bend-token.md)
-* [Reserves Oracle](core-protocol/reserves-oracle.md)
-* [NFT Oracle](core-protocol/nft-oracle.md)
-* [WETH Gateway](core-protocol/weth-gateway.md)
-* [Punk Gateway](core-protocol/punk-gateway.md)
+* [Protocol Overview](lending-protocol/protocol-overview.md)
+* [LendPool](lending-protocol/lendpool.md)
+* [LendPoolLoan](lending-protocol/lendpoolloan.md)
+* [LendPoolAddressProvider](lending-protocol/lendpooladdressprovider.md)
+* [bendTokens](lending-protocol/bendtokens.md)
+* [debtTokens](lending-protocol/debttokens.md)
+* [boundNFTs](lending-protocol/boundnfts.md)
+* [BEND Token](lending-protocol/bend-token.md)
+* [Reserves Oracle](lending-protocol/reserves-oracle.md)
+* [NFT Oracle](lending-protocol/nft-oracle.md)
+* [WETH Gateway](lending-protocol/weth-gateway.md)
+* [Punk Gateway](lending-protocol/punk-gateway.md)
+
+## Exchange Protocol
+
+* [Protocol Overview](exchange-protocol/protocol-overview.md)
 
 ## BoundNFT Protocol
 
@@ -30,6 +34,7 @@
 
 * [Lending Protocol](deployed-contracts/lending-protocol.md)
 * [Exchange Protocol](deployed-contracts/exchange-protocol.md)
+* [Down Payment](deployed-contracts/down-payment.md)
 
 ## GETTING STARTED
 
