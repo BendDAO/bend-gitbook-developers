@@ -1,6 +1,6 @@
 # LendPoolAddressProvider
 
-Addresses register of the protocol for a particular market. This contract is immutable and the address will never change. Also see [Deployed Contracts](broken-reference) section.
+Addresses register of the lending market. This contract is immutable and the address will never change. Also see [Deployed Contracts](broken-reference) section.
 
 {% hint style="info" %}
 Whenever the LendPool contract is needed, we recommended you fetch the correct address from the LendPoolAddressesProvider smart contract.
@@ -10,7 +10,7 @@ Whenever the LendPool contract is needed, we recommended you fetch the correct a
 
 ### getMarketId
 
-Returns the id of the Bend market to which this contracts points to.
+Returns the id of the lending market to which this contracts points to.
 
 ### getLendPool
 
