@@ -20,10 +20,31 @@
 ## Exchange Protocol
 
 * [Protocol Overview](exchange-protocol/protocol-overview.md)
+* [Order design](exchange-protocol/order-design/README.md)
+  * [Maker order](exchange-protocol/order-design/maker-order.md)
+  * [Taker order](exchange-protocol/order-design/taker-order.md)
+* [BendExchange](exchange-protocol/bendexchange.md)
+* [StrategyStandardSaleForFixedPrice](exchange-protocol/strategystandardsaleforfixedprice.md)
+* [AuthorizationManager](exchange-protocol/authorizationmanager.md)
+* [AuthenticatedProxy](exchange-protocol/authenticatedproxy.md)
+* [CurrencyManager](exchange-protocol/currencymanager.md)
+* [InterceptorManager](exchange-protocol/interceptormanager.md)
+* [ExecutionManager](exchange-protocol/executionmanager.md)
+* [TransferManager](exchange-protocol/transfermanager.md)
+* [RoyaltyFeeManager](exchange-protocol/royaltyfeemanager.md)
+* [RoyaltyFeeRegistry](exchange-protocol/royaltyfeeregistry.md)
+* [RoyaltyFeeSetter](exchange-protocol/royaltyfeesetter.md)
+* [TransferERC721](exchange-protocol/transfererc721.md)
+* [RedeemNFT](exchange-protocol/redeemnft.md)
 
 ## BoundNFT Protocol
 
 * [BoundNFT Registry](boundnft-protocol/boundnft-registry.md)
+
+## Downpayment
+
+* [Overview](downpayment/overview.md)
+* [Downpayment](downpayment/downpayment.md)
 
 ## PROTOCOL GOVERNANCE
 
