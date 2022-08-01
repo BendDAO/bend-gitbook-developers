@@ -4,7 +4,7 @@ This is the entrance contract for down payment
 
 ### Methods <a href="#addcurrency" id="addcurrency"></a>
 
-#### buy[​](broken-reference) <a href="#addcurrency" id="addcurrency"></a>
+#### buy[​](broken-reference)
 
 ```
 function buy(address adapter,uint256 borrowAmount,bytes calldata data,Sig calldata sig) external payable;
