@@ -222,6 +222,26 @@ Returns the auction data of the NFT.
 
 Returns the liquidate price of the NFT which health factor is below 1.
 
+### getNftCollateralData
+
+**function getNftCollateralData(address nftAsset, address reserveAsset)**
+
+Returns the collateral data of the NFT.
+
+**Return Values**
+
+| Parameter Name            | Type    | Description                                |
+| ------------------------- | ------- | ------------------------------------------ |
+| totalCollateralInETH      | uint256 | the total collateral in ETH of the NFT     |
+| totalCollateralInReserve  | uint256 | the total collateral in Reserve of the NFT |
+| availableBorrowsInETH     | uint256 | the borrowing power in ETH of the NFT      |
+| availableBorrowsInReserve | uint256 | the borrowing power in Reserve of the NFT  |
+| ltv                       | uint256 | the loan to value of the user              |
+| liquidationThreshold      | uint256 | the liquidation threshold of the NFT       |
+| liquidationBonus          | uint256 | the liquidation bonus of the NFT           |
+
+###
+
 ### paused
 
 Returns true if the LendPool is paused
