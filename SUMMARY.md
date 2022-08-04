@@ -73,5 +73,5 @@
 
 ## MISCELLANEOUS
 
-* [Security & Audits](miscellaneous/security-and-audits.md)
+* [Security & Audits](https://docs.benddao.xyz/portal/risk/security-and-audits)
 * [Glossary](miscellaneous/glossary.md)
