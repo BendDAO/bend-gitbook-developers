@@ -8,4 +8,4 @@ The following documentation describes the fundamentals of the protocol and how t
 
 The protocol is implemented as a set of smart contracts on top of the Ethereum blockchain. Smart contracts guarantee safety and do not require an intermediary agent.
 
-![Bend Protocol Smart Contracts](.gitbook/assets/Bend\_Protocol\_HLD\_-\_Google\_Sheets.jpg)
+![BendDAO Protocols](<.gitbook/assets/BendDAO Protocols 0812.jpg>)
