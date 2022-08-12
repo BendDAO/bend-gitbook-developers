@@ -1,5 +1,5 @@
 ---
-description: You can query latest APR and APY on chain and subgraph
+description: You can query latest APY and APR on chain and subgraph
 ---
 
 # APR and APY
@@ -14,7 +14,7 @@ APY: Compounding interest accrued by deposit or borrow on LendPool.
 APR: Non Compounding rewards earned as part of LiquidityIncentives.
 {% endhint %}
 
-The deposit and borrow APR displayed on the BendDAO front-end is calculated in real-time when the lending pool utilization ratio is changed.
+The deposit and borrow APY displayed on the Bend front-end is compounded per second.
 
 ## Conversions
 
