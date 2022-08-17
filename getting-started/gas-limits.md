@@ -11,6 +11,8 @@ The following table shows the recommended gas limit to set when calling the func
 | LendPool    | auction        | 500000                                           |
 | LendPool    | redeem         | 500000                                           |
 | LendPool    | liquidate      | 700000                                           |
+| LendPool    | batchBorrow    | Token Item number multiply borrow's Gas Limit    |
+| LendPool    | batchRepay     | Token Item number multiply repay's Gas Limit     |
 | WETHGateway | depositETH     | 350000                                           |
 | WETHGateway | withdrawETH    | 400000                                           |
 | WETHGateway | borrowETH      | 1000000                                          |
