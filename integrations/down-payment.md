@@ -6,7 +6,7 @@ We can provide a dedicated down payment page for our partners and partners can p
 
 For example, X2Y2 marketplace has this down payment page URL:
 
-https://www.benddao.xyz/app/liquidity/buy/down-payment/x2y2/{**collectionAddress**}/{**tokenId**}
+https://www.benddao.xyz/liquidity/buy/down-payment/x2y2/{**collectionAddress**}/{**tokenId**}
 
 **collectionAddress**: ERC721 contract address.
 
@@ -39,7 +39,7 @@ UiPoolDataProvider contract at [Etherscan](https://etherscan.io/address/0x132E3E
 
 And you can find all contracts depoyed at [here](broken-reference), etc. AddresssProvider.
 
-Repay page URL: https://www.benddao.xyz/repay/{**collectionAddress**}/{**tokenId**}
+Repay page URL(TBC): https://www.benddao.xyz/repay/{**collectionAddress**}/{**tokenId**}
 
 **collectionAddress**: ERC721 contract address.
 
