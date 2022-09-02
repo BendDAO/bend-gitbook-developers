@@ -71,11 +71,11 @@
 * [Flash Loans](guides/flash-loans.md)
 * [Troubleshooting Errors](guides/troubleshooting-errors.md)
 
+## Integrations
+
+* [Down Payment](integrations/down-payment.md)
+
 ## MISCELLANEOUS
 
 * [Security & Audits](https://docs.benddao.xyz/portal/risk/security-and-audits)
 * [Glossary](miscellaneous/glossary.md)
-
-## Integrations
-
-* [Down Payment](integrations/down-payment.md)
