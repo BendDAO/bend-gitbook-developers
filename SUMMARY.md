@@ -75,3 +75,7 @@
 
 * [Security & Audits](https://docs.benddao.xyz/portal/risk/security-and-audits)
 * [Glossary](miscellaneous/glossary.md)
+
+## Integrations
+
+* [Down Payment](integrations/down-payment.md)
