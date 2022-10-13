@@ -27,9 +27,10 @@ For contract addresses of other marketplaces, see the sidebar under [Deployed Co
 | RedeemNFT                         | [https://etherscan.io/address/0xb645d88807f932Aba29eE6B28e6A5F1467508498](https://etherscan.io/address/0xb645d88807f932Aba29eE6B28e6A5F1467508498) |
 {% endtab %}
 
-{% tab title="Rinkeby" %}
-| Contract Name | Address                                                                                                                                                            |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| BendExchange  | [https://rinkeby.etherscan.io/address/0xFeCfD28A068BcB9AAeB1c830870093B24750B076](https://rinkeby.etherscan.io/address/0xFeCfD28A068BcB9AAeB1c830870093B24750B076) |
+{% tab title="Goerli" %}
+| Contract Name        | Address                                    |
+| -------------------- | ------------------------------------------ |
+| BendExchange         | 0xA897599f8dAf1170b6e1391f1De66f69BAB9617F |
+| AuthorizationManager | 0xB68d4a3f93A657E8A6Ff17a2fb4acfd4769474c7 |
 {% endtab %}
 {% endtabs %}

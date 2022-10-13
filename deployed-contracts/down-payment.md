@@ -17,9 +17,9 @@ The BendDAO down payment supports all major marketpalces.
 | BendExchangeAdapter      | [https://etherscan.io/address/0xfD8F1f5AAA388ed3bF28B8Adc91D45c8B9db1384](https://etherscan.io/address/0xfD8F1f5AAA388ed3bF28B8Adc91D45c8B9db1384) |
 {% endtab %}
 
-{% tab title="Rinkeby" %}
-| Contract Name | Address                                                                                                                                                            |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Downpayment   | [https://rinkeby.etherscan.io/address/0xFeF524B113c112B42B5a081217F7006973408579](https://rinkeby.etherscan.io/address/0xFeF524B113c112B42B5a081217F7006973408579) |
+{% tab title="Goerli" %}
+| Contract Name | Address                                    |
+| ------------- | ------------------------------------------ |
+| Downpayment   | 0x383248b6323F76798e99C41dB4b7a540Da6CF789 |
 {% endtab %}
 {% endtabs %}
