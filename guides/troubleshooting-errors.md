@@ -6,14 +6,19 @@ In order to reduce gas usage and code size, Bend contracts return numbered error
 
 ## Reference Guide
 
-| Error Class               | Error Code(string) | Description                         |
-| ------------------------- | ------------------ | ----------------------------------- |
-| Common Errors             | 100                | Caller is not Pool Admin            |
-| Common Errors             | 101                | Caller is not Address Provider      |
-| Common Errors             | 102                | Invalid from balance after transfer |
-| Common Errors             | 103                | Invalid to balance after transfer   |
-| Math Library Errors       | 200                | Multiplication overflow             |
-| Math Library Errors       | 201                | Addition overflow                   |
-| Math Library Errors       | 202                | Divided by zero                     |
-| Validation & check errors | 301                | Amount must be greater than 0       |
+| Error Class               | Error Code(string) | Description                                          |
+| ------------------------- | ------------------ | ---------------------------------------------------- |
+| Common Errors             | 100                | Caller is not Pool Admin                             |
+| Common Errors             | 101                | Caller is not Address Provider                       |
+| Common Errors             | 102                | Invalid from balance after transfer                  |
+| Common Errors             | 103                | Invalid to balance after transfer                    |
+| Math Library Errors       | 200                | Multiplication overflow                              |
+| Math Library Errors       | 201                | Addition overflow                                    |
+| Math Library Errors       | 202                | Divided by zero                                      |
+| Validation & check Errors | 301                | Amount must be greater than 0                        |
+| Validation & check Errors | 308                | There is not enough collateral to cover a new borrow |
+| Lend Pool Loan Errors     | 485                | Bid price lower than highest price                   |
+| Lend Pool Loan Errors     | 486                | Redeem duration has ended                            |
+| Lend Pool Loan Errors     | 489                | Auction has ended                                    |
+| Lend Pool Loan Errors     | 490                | Auction is not end                                   |
 
