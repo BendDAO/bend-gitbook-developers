@@ -2,6 +2,10 @@
 
 The BendDAO exchange protocol is an ecosystem of multiple marketplaces, with the first market being the main BendDAO Marketplace.
 
+{% hint style="info" %}
+For contract addresses of other marketplaces, see the sidebar under [Deployed Contracts](broken-reference)
+{% endhint %}
+
 ## Main Contracts
 
 {% tabs %}

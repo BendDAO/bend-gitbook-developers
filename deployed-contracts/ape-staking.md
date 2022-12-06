@@ -1,6 +1,6 @@
 # Ape Staking
 
-The BendDAO Ape Staking is an ecosystem of Yuga Labs, providing the first pairing service in the market.
+The BendDAO Ape Staking provides the first pairing service in the market between the BAYC & MAYC & BAKC holders and ApeCoin holders.
 
 ## Main Contracts
 
