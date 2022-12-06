@@ -56,6 +56,7 @@
 * [Lending Protocol](deployed-contracts/lending-protocol.md)
 * [Exchange Protocol](deployed-contracts/exchange-protocol.md)
 * [Down Payment](deployed-contracts/down-payment.md)
+* [Ape Staking](deployed-contracts/ape-staking.md)
 
 ## GETTING STARTED
 
