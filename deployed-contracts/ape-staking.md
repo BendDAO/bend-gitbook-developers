@@ -6,11 +6,11 @@ The BendDAO Ape Staking provides the first pairing service in the market between
 
 {% tabs %}
 {% tab title="Mainnet" %}
-| Contract Name  | Address |
-| -------------- | ------- |
-| BendApeStaking | TBD     |
-| StakeManager   | TBD     |
-| StakeProxy     | TBD     |
+| Contract Name  | Address                                                                                                               |
+| -------------- | --------------------------------------------------------------------------------------------------------------------- |
+| BendApeStaking | [0x044A97AC566F348B9f229601F1240E5d1758013A](https://etherscan.io/address/0x044A97AC566F348B9f229601F1240E5d1758013A) |
+| StakeManager   | [0xDAFCe4AcC2703A24F29d1321AdAADF5768F54642](https://etherscan.io/address/0xDAFCe4AcC2703A24F29d1321AdAADF5768F54642) |
+| StakeProxy     | [0xE7fd730dD22d4C834CF6d5b8D539de8b14567AF4](https://etherscan.io/address/0xE7fd730dD22d4C834CF6d5b8D539de8b14567AF4) |
 {% endtab %}
 
 {% tab title="Goerli" %}
