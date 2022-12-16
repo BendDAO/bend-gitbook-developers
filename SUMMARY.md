@@ -46,6 +46,12 @@
 * [Overview](downpayment/overview.md)
 * [Downpayment](downpayment/downpayment.md)
 
+## Bend ape staking
+
+* [Overview](bend-ape-staking/overview.md)
+* [BendApeStaking](bend-ape-staking/bendapestaking.md)
+* [StakeManager](bend-ape-staking/stakemanager.md)
+
 ## PROTOCOL GOVERNANCE
 
 * [Voting & Governance](protocol-governance/voting-and-governance.md)
