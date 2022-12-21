@@ -1,6 +1,6 @@
 # Protocol Overview
 
-The BendDAO Lending Protocol repository can be found on [Github here](https://github.com/BendDAO/bend-protocol).
+The BendDAO Lending Protocol repository can be found on Github [here](https://github.com/BendDAO/bend-lending-protocol).
 
 ## Main Contracts
 

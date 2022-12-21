@@ -2,8 +2,6 @@
 
 If you need to use CryptoPunks in the protocol, it must first be wrapped into WPUNKS. The WPUNKS Gateway contract is a helper contract to easily wrap and unwrap CryptoPunks as necessary when interacting with the protocol, since only ERC721 is used within protocol interactions.
 
-The source code can be [found here](https://github.com/BendDAO/bend-protocol/blob/main/contracts/protocol/PunkGateway.sol), with the latest deployed address listed in the [Deployed Contracts](broken-reference).
-
 ## Methods
 
 ### borrow

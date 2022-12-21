@@ -2,8 +2,6 @@
 
 If you need to use native ETH in the protocol, it must first be wrapped into WETH. The WETH Gateway contract is a helper contract to easily wrap and unwrap ETH as necessary when interacting with the protocol, since only ERC20 is used within protocol interactions.
 
-The source code can be [found here](https://github.com/BendDAO/bend-protocol/blob/main/contracts/protocol/WETHGateway.sol), with the latest deployed address listed in the [Deployed Contracts](broken-reference).
-
 ## Methods
 
 ### depositETH

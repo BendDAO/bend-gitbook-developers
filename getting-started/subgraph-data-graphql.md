@@ -12,9 +12,10 @@ If you are consuming GraphQL data in your app, we'd recommend using a fully feat
 
 ## Bend's Subgraphs
 
-To view the source of our subgraphs, see our [Github repo](https://github.com/bendfi/bend-protocol-subgraph).
+To view the source of our subgraphs, see our GitHub [repo](https://github.com/BendDAO/bend-protocol-subgraph).
 
 | Network | Subgraph Address |
 | ------- | ---------------- |
-| Mainnet |                  |
-| Rinkeby |                  |
+| Mainnet | TBD              |
+| Goerli  | TBD              |
+

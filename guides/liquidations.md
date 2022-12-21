@@ -1,6 +1,6 @@
 # Liquidations
 
-The health of the Bend Protocol is dependent on the 'health' of the loans within the system, also known as the 'health factor'. When the 'health factor' of an account's total loans is below 1, anyone can make an `auction()` and `liquidate()` to the LendPool contract, paying back all of the debt owed and receiving discounted collateral in return (also known as the liquidation bonus as listed here).
+The health of the BendDAO Protocol is dependent on the 'health' of the loans within the system, also known as the 'health factor'. When the 'health factor' of an account's total loans is below 1, anyone can make an `auction()` and `liquidate()` to the LendPool contract, paying back all of the debt owed and receiving discounted collateral in return (also known as the liquidation bonus as listed here).
 
 This incentives third parties to participate in the health of the overall protocol, by acting in their own interest (to receive the discounted collateral) and as a result, ensure loans are sufficiently collateralized.
 
