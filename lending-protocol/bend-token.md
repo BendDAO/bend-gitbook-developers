@@ -8,4 +8,4 @@ This section will cover the technical aspects of the token.
 For governance, security, and incentive details, see the [Bendenomics](https://docs.benddao.xyz/portal/governance/bendenomics) documentation.
 {% endhint %}
 
-The source code for the BEND token can be found on [Github here](https://github.com/BendDAO/bend-stake).
+The source code for the BEND token can be found on Github [here](https://github.com/BendDAO/bend-incentive).
