@@ -183,24 +183,40 @@ Returns the state and configuration of the nft.
 
 Returns the configuration of the NFT.
 
-### getNftLoanData
+### getNftCollateralData
 
-**function getNftLoanData(address nftAsset, uint256 nftTokenId)**
+**function getNftCollateralData(address nftAsset, uint256 nftTokenId)**
 
-Returns the loan data of the NFT.
+Returns the collateral data of the NFT.
 
 **Return Values**
 
-| Parameter Name       | Type    | Description                                               |
-| -------------------- | ------- | --------------------------------------------------------- |
-| totalCollateralETH   | uint256 | the total collateral in ETH of the NFT                    |
-| totalDebtETH         | uint256 | the total borrowed debt in ETH of the NFT                 |
-| availableBorrowsETH  | uint256 | the borrowing power left of the NFT                       |
-| ltv                  | uint256 | the loan to value of the user,  that is collateral ration |
-| liquidationThreshold | uint256 | the liquidation threshold of the NFT                      |
-| loanId               | uint256 | the loan id of the NFT related to                         |
-| healthFactor         | uint256 | the current health factor of the NFT                      |
-| reserveAsset         | address | the current borrowed reserve asset of the NFT             |
+| Parameter Name            | Type    | Description                                               |
+| ------------------------- | ------- | --------------------------------------------------------- |
+| totalCollateralInETH      | uint256 | the total collateral in ETH of the NFT                    |
+| totalCollateralInReserve  | uint256 | the total collateral in Reserve of the NFT                |
+| availableBorrowsInETH     | uint256 | the borrowing power left in ETH of the NFT                |
+| availableBorrowsInReserve | uint256 | the borrowing power left in Reserve of the NFT            |
+| ltv                       | uint256 | the loan to value of the user,  that is collateral ration |
+| liquidationThreshold      | uint256 | the liquidation threshold of the NFT                      |
+| liquidationBonus          | uint256 | the liquidation bonus of the NFT                          |
+
+### getNftDebtData
+
+**function getNftDebtData(address nftAsset, uint256 nftTokenId)**
+
+Returns the debt data of the NFT.
+
+**Return Values**
+
+| Parameter Name   | Type    | Description                                   |
+| ---------------- | ------- | --------------------------------------------- |
+| loanId           | uint256 | the loan id of the NFT related to             |
+| healthFactor     | uint256 | the current health factor of the NFT          |
+| reserveAsset     | address | the current borrowed reserve asset of the NFT |
+| totalCollateral  | uint256 | the total collateral in Reserve of the NFT    |
+| totalDebt        | uint256 | the current borrowed debt  of the NFT         |
+| availableBorrows | uint256 | the borrowing power left of the NFT           |
 
 ### getNftAuctionData
 
@@ -217,6 +233,21 @@ Returns the auction data of the NFT.
 | bidPrice        | uint256 | the highest bid price in Reserve of the loan |
 | bidBorrowAmount | uint256 | the borrow amount in Reserve of the loan     |
 | bidFine         | uint256 | the penalty fine of the loan                 |
+
+### getNftAuctionEndTime
+
+**function getNftAuctionEndTime(address nftAsset, uint256 nftTokenId)**
+
+Returns the auction end time of the NFT.
+
+**Return Values**
+
+| Parameter Name     | Type    | Description                 |
+| ------------------ | ------- | --------------------------- |
+| loanId             | uint256 | the loan id of the NFT      |
+| bidStartTimestamp  | uint256 | the auction start timestamp |
+| bidEndTimestamp    | uint256 | the aucton end timestamp    |
+| redeemEndTimestamp | uint256 | the redeem end timestamp    |
 
 ### getNftLiquidatePrice
 
