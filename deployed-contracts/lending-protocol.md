@@ -2,10 +2,6 @@
 
 The Bend lending protocol is an ecosystem of multiple markets, with the first market being the main Bend Market.
 
-{% hint style="info" %}
-For contract addresses of other markets, see the sidebar under [Deployed Contracts](broken-reference)
-{% endhint %}
-
 ## Main Contracts
 
 {% tabs %}
@@ -73,6 +69,7 @@ The below information can also be programmatically fetched by calling getNftToke
 | WOW         | [0xe785E82358879F061BC3dcAC6f0444462D4b5330](https://etherscan.io/address/0xe785E82358879F061BC3dcAC6f0444462D4b5330)       | [0x6FFB3c6cd21E1C0e0Cb0B8D1EDE946d0f41EfaB4](https://etherscan.io/address/0x6FFB3c6cd21E1C0e0Cb0B8D1EDE946d0f41EfaB4)      |
 | KONGZ       | [0x57a204AA1042f6E66DD7730813f4024114d74f37](https://etherscan.io/address/0x57a204AA1042f6E66DD7730813f4024114d74f37)       | [0x5F2E3C13cF5b8C5EC7D6a7D14534A7a8e1518E92](https://etherscan.io/address/0x5F2E3C13cF5b8C5EC7D6a7D14534A7a8e1518E92)      |
 | BAKC        | 0xba30E5F9Bb24caa003E9f2f0497Ad287FDF95623                                                                                  | 0xcF2CC4994Fe9E411A6aDC30d0A11f20CD4D8d2aB                                                                                 |
+| Otherdeed   | 0x34d85c9CDeB23FA97cb08333b511ac86E1C4E258                                                                                  | 0x59BF54AfB69260189Fe954263229617317141053                                                                                 |
 | TOADZ       | 0x1CB1A5e65610AEFF2551A50f76a87a7d3fB649C6                                                                                  | 0x2A24535c49567301Ec11BE325E3ee3f9BD06B183                                                                                 |
 | MEEBITS     | 0x7Bd29408f11D2bFC23c34f18275bBf23bB716Bc7                                                                                  | 0x4DA03759d24CCf01b64a7750Be2905a6c84DDCd1                                                                                 |
 | MFER        | 0x79FCDEF22feeD20eDDacbB2587640e45491b757f                                                                                  | 0x963256b76D87959f57763d1Ca4022e406b8d9f46                                                                                 |
