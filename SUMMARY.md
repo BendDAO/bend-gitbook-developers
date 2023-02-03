@@ -59,6 +59,7 @@
 
 ## DEPLOYED CONTRACTS
 
+* [BoundNFT Protocol](deployed-contracts/boundnft-protocol.md)
 * [Lending Protocol](deployed-contracts/lending-protocol.md)
 * [Exchange Protocol](deployed-contracts/exchange-protocol.md)
 * [Down Payment](deployed-contracts/down-payment.md)

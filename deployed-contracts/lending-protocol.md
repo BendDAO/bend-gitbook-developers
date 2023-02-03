@@ -1,6 +1,6 @@
 # Lending Protocol
 
-The Bend lending protocol is an ecosystem of multiple markets, with the first market being the main Bend Market.
+The BendDAO lending protocol is an ecosystem of multiple markets, with the first market being the main BendDAO Market on Ethereum.
 
 ## Main Contracts
 
