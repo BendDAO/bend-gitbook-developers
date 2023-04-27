@@ -1,10 +1,10 @@
 # boundNFTs
 
-boundNFTs are promissory-note tokens that are minted and burned upon borrow and repay, representing the NFT used as collateral which owed by the token holder, with same token ID.
+boundNFTs are promissory-note tokens that are minted and burned upon borrowing and repayment, representing the NFT used as collateral owed by the token holder, with the same token ID.
 
-The boundNFTs' token is pegged to the token of the corresponding NFT collateral at a 1:1. All tokens owned by the boundNFTs holders can be simply integrate into NFT wallet and social medias.
+The boundNFTs' token is pegged to the token of the corresponding NFT collateral at a 1:1. All tokens owned by the boundNFTs holders can be simply integrated into the NFT wallet and social media.
 
-The source code can be found on Github [here](https://github.com/BoundNFT/boundnft-protocol/blob/main/contracts/protocol/BNFT.sol).
+The source code can be found on GitHub [here](https://github.com/BoundNFT/boundnft-protocol/blob/main/contracts/protocol/BNFT.sol).
 
 {% hint style="info" %}
 For all minting and burning actions, see Borrow() and Repay() methods in the LendPool contract, and createLoan() and repayLoan() methods in the LendPoolLoan.
@@ -12,7 +12,7 @@ For all minting and burning actions, see Borrow() and Repay() methods in the Len
 
 ## ERC721 Methods
 
-Although boundNFT tokens are modeled on the ERC721 standard, they are non-transferrable. Therefore they do not implement any of the standard ERC721 functions relating to transfer() and allowance().
+Although boundNFT tokens are modeled on the ERC721 standard, they are non-transferable. Therefore they do not implement any of the standard ERC721 functions relating to transfer() and allowance().
 
 ## Methods
 
@@ -20,7 +20,7 @@ Although boundNFT tokens are modeled on the ERC721 standard, they are non-transf
 
 **function mint(address to, uint256 tokenId)**
 
-Mints boundNFT token to the user address.
+Mints boundNFT token to the user address. The caller must have the original NFT of the underlying asset.
 
 |         |         |                                              |
 | ------- | ------- | -------------------------------------------- |
@@ -31,7 +31,7 @@ Mints boundNFT token to the user address.
 
 **function burn(uint256 tokenId)**
 
-Burns user boundNFT token.
+Burns user boundNFT token. The caller must be the minter when it is minted.
 
 |         |         |                                             |
 | ------- | ------- | ------------------------------------------- |
@@ -41,7 +41,7 @@ Burns user boundNFT token.
 
 **function flashLoan( address receiverAddress, uint256\[] calldata nftTokenIds, bytes calldata params )**
 
-Allows smart contracts to access the tokens within one transaction, as long as the tokens taken is returned.
+Allows smart contracts to access the tokens within one transaction, as long as the tokens taken are returned. Only the NFT owner can do the flash loan for his owned NFTs.
 
 |                 |            |                                                                                                                                                                                                        |
 | --------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -53,4 +53,6 @@ Allows smart contracts to access the tokens within one transaction, as long as t
 
 ### minterOf
 
-Returns the owner of the token.
+**function minterOf(uint256 tokenId) public view override returns (address)**
+
+Returns the minter of the token.
