@@ -134,6 +134,6 @@ Returns
 | ------ | ------- | ------------------------------- |
 | amount | uint256 | the amount of claimable rewards |
 
-****
+
 
 ### &#x20;<a href="#currencyremoved" id="currencyremoved"></a>

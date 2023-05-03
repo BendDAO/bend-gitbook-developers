@@ -91,7 +91,7 @@ function WETH() external view returns (address)
 function getFee(address adapter) external view returns (uint256)
 ```
 
-****
+
 
 **Parameters**
 

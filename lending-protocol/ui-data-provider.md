@@ -1,6 +1,10 @@
-# UIPoolDataProvider
+# UI Data Provider
 
-This Contract returns an array of all reserves, NFTs, loans, and user data for the lending protocol, used by the BendDAO frontend to display some dashboard data.
+This Contract returns an array of all reserves, NFTs, loans, and user data for the lending protocol, used by the BendDAO front-end to display some dashboard data.
+
+{% hint style="warning" %}
+This contract is non-upgradable and is only intended for front-end integration. New contracts will be deployed according to new requirements. Please do not use it in smart contracts.
+{% endhint %}
 
 ## Methods
 

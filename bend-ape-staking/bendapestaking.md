@@ -112,6 +112,6 @@ Returns
 | ----------- | ---- | ---------------------------------- |
 | isCancelled | bool | whether the offer cancelled of not |
 
-****
+
 
 ### &#x20;<a href="#currencyremoved" id="currencyremoved"></a>

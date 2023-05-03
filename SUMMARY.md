@@ -17,7 +17,8 @@
 * [WETH Gateway](lending-protocol/weth-gateway.md)
 * [Punk Gateway](lending-protocol/punk-gateway.md)
 * [Incentive Controller](lending-protocol/incentive-controller.md)
-* [UIPoolDataProvider](lending-protocol/uipooldataprovider.md)
+* [Protocol Data Provider](lending-protocol/protocol-data-provider.md)
+* [UI Data Provider](lending-protocol/ui-data-provider.md)
 
 ## Exchange Protocol
 
