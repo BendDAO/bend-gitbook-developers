@@ -6,21 +6,29 @@ The BendDAO lending protocol is an ecosystem of multiple markets, with the first
 
 {% tabs %}
 {% tab title="Mainnet" %}
-| Contract Name           | Address                                                                                                                    |
-| ----------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| LendPoolAddressProvider | [0x24451F47CaF13B24f4b5034e1dF6c0E401ec0e46](https://etherscan.io/address/0x24451f47caf13b24f4b5034e1df6c0e401ec0e46#code) |
-| WETHGateway             | [0x3B968D2D299B895A5Fcf3BBa7A64ad0F566e6F88](https://etherscan.io/address/0x3B968D2D299B895A5Fcf3BBa7A64ad0F566e6F88)      |
-| PunkGateway             | [0xeD01f8A737813F0bDA2D4340d191DBF8c2Cbcf30](https://etherscan.io/address/0xeD01f8A737813F0bDA2D4340d191DBF8c2Cbcf30)      |
-| Other Contracts         | Using Methods in LendPoolAddressProvider to query them                                                                     |
+| Contract Name                    | Address                                                                                                                    |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| LendPoolAddressProvider          | [0x24451F47CaF13B24f4b5034e1dF6c0E401ec0e46](https://etherscan.io/address/0x24451f47caf13b24f4b5034e1df6c0e401ec0e46#code) |
+| WETHGateway                      | [0x3B968D2D299B895A5Fcf3BBa7A64ad0F566e6F88](https://etherscan.io/address/0x3B968D2D299B895A5Fcf3BBa7A64ad0F566e6F88)      |
+| PunkGateway                      | [0xeD01f8A737813F0bDA2D4340d191DBF8c2Cbcf30](https://etherscan.io/address/0xeD01f8A737813F0bDA2D4340d191DBF8c2Cbcf30)      |
+| BendProtocolDataProvider         | 0x3811DA50f55CCF75376C5535562F5b4797822480                                                                                 |
+| UIPoolDataProvider               | 0x132E3E3eC6652299B235A26D601aa9C68806e3FE                                                                                 |
+| BendProtocolIncentivesController | 0x26FC1f11E612366d3367fc0cbFfF9e819da91C8d                                                                                 |
+| StakedBUNI                       | 0x647C509AF2A2b2294bB79fCE12DaEc8e7cf938f7                                                                                 |
+| Other Contracts                  | Using Methods in LendPoolAddressProvider to query them                                                                     |
 {% endtab %}
 
 {% tab title="Goerli" %}
-| Contract Name           | Address                                                                                                                      |
-| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| LendPoolAddressProvider | [0x1cba0A3e18be7f210713c9AC9FE17955359cC99B](https://goerli.etherscan.io/address/0x1cba0A3e18be7f210713c9AC9FE17955359cC99B) |
-| WETHGateway             | [0xB926DD4A16c264F02986B575b546123D5D0bC607](https://goerli.etherscan.io/address/0xB926DD4A16c264F02986B575b546123D5D0bC607) |
-| PunkGateway             | [0xa7076550Ee79DB0320BE98f89D775797D859140c](https://goerli.etherscan.io/address/0xa7076550Ee79DB0320BE98f89D775797D859140c) |
-| Other Contracts         | Using Methods in LendPoolAddressProvider to query them                                                                       |
+| Contract Name                    | Address                                                                                                                      |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| LendPoolAddressProvider          | [0x1cba0A3e18be7f210713c9AC9FE17955359cC99B](https://goerli.etherscan.io/address/0x1cba0A3e18be7f210713c9AC9FE17955359cC99B) |
+| WETHGateway                      | [0xB926DD4A16c264F02986B575b546123D5D0bC607](https://goerli.etherscan.io/address/0xB926DD4A16c264F02986B575b546123D5D0bC607) |
+| PunkGateway                      | [0xa7076550Ee79DB0320BE98f89D775797D859140c](https://goerli.etherscan.io/address/0xa7076550Ee79DB0320BE98f89D775797D859140c) |
+| BendProtocolDataProvider         | 0xeFC513D24D2AC6dA4fF3C6429642DD6C497B0845                                                                                   |
+| UIPoolDataProvider               | 0x15073180CA8b933C7a8099e811FFAD0568eAb861                                                                                   |
+| BendProtocolIncentivesController | 0x292F693048208184320C01e0C223D624268e5EE7                                                                                   |
+| StakedBUNI                       | 0x1f9b18D502d8A406564b0cF4e4B7ad9d4eEb2a52                                                                                   |
+| Other Contracts                  | Using Methods in LendPoolAddressProvider to query them                                                                       |
 {% endtab %}
 {% endtabs %}
 

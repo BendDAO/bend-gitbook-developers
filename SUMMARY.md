@@ -5,9 +5,9 @@
 ## Lending Protocol
 
 * [Protocol Overview](lending-protocol/protocol-overview.md)
+* [LendPoolAddressProvider](lending-protocol/lendpooladdressprovider.md)
 * [LendPool](lending-protocol/lendpool.md)
 * [LendPoolLoan](lending-protocol/lendpoolloan.md)
-* [LendPoolAddressProvider](lending-protocol/lendpooladdressprovider.md)
 * [bendTokens](lending-protocol/bendtokens.md)
 * [debtTokens](lending-protocol/debttokens.md)
 * [boundNFTs](lending-protocol/boundnfts.md)
@@ -16,6 +16,7 @@
 * [NFT Oracle](lending-protocol/nft-oracle.md)
 * [WETH Gateway](lending-protocol/weth-gateway.md)
 * [Punk Gateway](lending-protocol/punk-gateway.md)
+* [Incentive Controller](lending-protocol/incentive-controller.md)
 
 ## Exchange Protocol
 

@@ -10,6 +10,10 @@ Both LendPoolAddressesProvider and LendPoolAddressesProviderRegistry control the
 
 The main contracts in BendDAO and their purposes are:
 
+### LendPoolAddressesProvider
+
+The main addresses register of the protocol, for particular markets. The latest contract addresses should be retrieved from this contract by making the appropriate calls.
+
 ### LendPool
 
 The main entry point into the Bend Protocol. Most interactions with Bend will happen via the LendPool, including:
@@ -25,14 +29,6 @@ The main entry point into the Bend Protocol. Most interactions with Bend will ha
 ### LendPoolLoan
 
 The NFT loan manager of the protocol, generate unique loan when NFTs are used as collateral in the borrowing, and maintain relationship between NFT and loan.
-
-### LendPoolAddressesProvider
-
-The main addresses register of the protocol, for particular markets. The latest contract addresses should be retrieved from this contract by making the appropriate calls.
-
-### LendPoolAddressesProviderRegistry
-
-Contains a list of active LendPoolAddressesProvider addresses, for different markets.
 
 ### bTokens
 

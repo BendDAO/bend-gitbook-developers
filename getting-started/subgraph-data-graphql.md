@@ -14,8 +14,8 @@ If you are consuming GraphQL data in your app, we'd recommend using a fully feat
 
 To view the source of our subgraphs, see our GitHub [repo](https://github.com/BendDAO/bend-protocol-subgraph).
 
-| Network | Subgraph Address |
-| ------- | ---------------- |
-| Mainnet | TBD              |
-| Goerli  | TBD              |
+| Network | Subgraph Address                |
+| ------- | ------------------------------- |
+| Mainnet | TBD, No public Subgraph for now |
+| Goerli  | TBD, No public Subgraph for now |
 
