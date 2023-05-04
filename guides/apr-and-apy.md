@@ -61,7 +61,11 @@ totalCurrentVariableDebt = debtTokenAddress.totalSupply()
 
 ### Subgraph (GraphQL)
 
-Use subgraph to query reserve data
+Use subgraph to query reserve data.
+
+{% hint style="info" %}
+There's no public subgraph service now, you need to deploy it by yourself. Please try to query the data from the on-chain smart contracts.
+{% endhint %}
 
 ```
 {
@@ -86,8 +90,8 @@ RAY = 10**27 // 10 to the power 27
 SECONDS_PER_YEAR = 31536000
 TOKEN_DECIMALS = 18 // same as the underlying asset, etc.18 for WETH, 6 for USDT
 REWARD_DECIMALS = 18 // BEND token is 18 always
-TOKEN_PRICE_ETH = ??? // using Chainlink to get the price, 1e18 for WETH
-REWARD_PRICE_ETH = ??? // using Uniswap V2 BEND/ETH pair to calculate the price 
+TOKEN_PRICE_ETH = ??? // using Chainlink contract to get the price, 1e18 for WETH
+REWARD_PRICE_ETH = ??? // using Uniswap V2 BEND/ETH pair contract to calculate the price 
 
 // Deposit and Borrow calculations for reserve (etc. WETH, USDT)
 // APY and APR are returned here as decimals, multiply by 100 to get the percents
