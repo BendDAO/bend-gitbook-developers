@@ -40,9 +40,9 @@ $$
 
 ### On-Chain
 
-APR: getAssetData to fetch liquidity mining incentives for bToken/debtToken.
+APR: using assets method to fetch liquidity mining incentives for bToken/debtToken.
 
-APY: getReserveDatato fetch deposit and borrow rates of asset.
+APY: using getReserveData method to fetch deposit and borrow rates of assets.
 
 ```
 [, liquidityIndex, variableBorrowIndex, 
@@ -51,8 +51,11 @@ bTokenAddress,
 debtTokenAddress, , ] = LendPool.getReserveData(asset.address) 
 // asset is the ERC20 deposited or borrowed, eg. DAI, WETH
 
-[,bEmissionPerSecond,] = IcentivesController.getAssetData(bTokenAddress)
-[,dEmissionPerSecond,] = IcentivesController.getAssetData(debtTokenAddress)
+totalBTokenSupply = bTokenAddress.totalSupply()
+totalCurrentVariableDebt = debtTokenAddress.totalSupply()
+
+[bEmissionPerSecond,,] = IcentivesController.assets(bTokenAddress)
+[dEmissionPerSecond,,] = IcentivesController.assets(debtTokenAddress)
 
 ```
 
@@ -69,9 +72,6 @@ Use subgraph to query reserve data
     liquidityRate 
     variableBorrowRate
     
-    bEmissionPerSecond
-    dEmissionPerSecond
-    
     totalBTokenSupply
     totalCurrentVariableDebt
   }
@@ -84,8 +84,12 @@ Use subgraph to query reserve data
 
 RAY = 10**27 // 10 to the power 27
 SECONDS_PER_YEAR = 31536000
+TOKEN_DECIMALS = 18 // same as the underlying asset, etc.18 for WETH, 6 for USDT
+REWARD_DECIMALS = 18 // BEND token is 18 always
+TOKEN_PRICE_ETH = ??? // using Chainlink to get the price, 1e18 for WETH
+REWARD_PRICE_ETH = ??? // using Uniswap V2 BEND/ETH pair to calculate the price 
 
-// Deposit and Borrow calculations
+// Deposit and Borrow calculations for reserve (etc. WETH, USDT)
 // APY and APR are returned here as decimals, multiply by 100 to get the percents
 
 depositAPR = liquidityRate/RAY
@@ -93,14 +97,15 @@ variableBorrowAPR = variableBorrowRate/RAY
 
 depositAPY = ((1 + (depositAPR / SECONDS_PER_YEAR)) ^ SECONDS_PER_YEAR) - 1
 variableBorrowAPY = ((1 + (variableBorrowAPR / SECONDS_PER_YEAR)) ^ SECONDS_PER_YEAR) - 1
-// Incentives calculation
+
+// Incentives calculations for BEND token
 
 bEmissionPerYear = bEmissionPerSecond * SECONDS_PER_YEAR
 dEmissionPerYear = dEmissionPerSecond * SECONDS_PER_YEAR
 
 incentiveDepositAPRPercent = 100 * (bEmissionPerYear * REWARD_PRICE_ETH * TOKEN_DECIMALS)/
                           (totalBTokenSupply * TOKEN_PRICE_ETH * REWARD_DECIMALS)
-                          
+
 incentiveBorrowAPRPercent = 100 * (dEmissionPerYear * REWARD_PRICE_ETH * TOKEN_DECIMALS)/
                           (totalCurrentVariableDebt * TOKEN_PRICE_ETH * REWARD_DECIMALS)
 
