@@ -45,11 +45,12 @@ APR: using assets method to fetch liquidity mining incentives for bToken/debtTok
 APY: using getReserveData method to fetch deposit and borrow rates of assets.
 
 ```
+// asset address is the ERC20 deposited or borrowed, eg. WETH, USDT
+
 [, liquidityIndex, variableBorrowIndex, 
 currentLiquidityRate, currentVariableBorrowRate, ,
 bTokenAddress,
-debtTokenAddress, , ] = LendPool.getReserveData(asset.address) 
-// asset is the ERC20 deposited or borrowed, eg. DAI, WETH
+debtTokenAddress, , ] = LendPool.getReserveData(asset.address)
 
 totalBTokenSupply = bTokenAddress.totalSupply()
 totalCurrentVariableDebt = debtTokenAddress.totalSupply()
