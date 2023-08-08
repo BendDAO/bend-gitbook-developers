@@ -6,16 +6,7 @@ The BendDAO lending protocol is an ecosystem of multiple markets, with the first
 
 {% tabs %}
 {% tab title="Mainnet" %}
-| Contract Name                    | Address                                                                                                                    |
-| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| LendPoolAddressProvider          | [0x24451F47CaF13B24f4b5034e1dF6c0E401ec0e46](https://etherscan.io/address/0x24451f47caf13b24f4b5034e1df6c0e401ec0e46#code) |
-| WETHGateway                      | [0x3B968D2D299B895A5Fcf3BBa7A64ad0F566e6F88](https://etherscan.io/address/0x3B968D2D299B895A5Fcf3BBa7A64ad0F566e6F88)      |
-| PunkGateway                      | [0xeD01f8A737813F0bDA2D4340d191DBF8c2Cbcf30](https://etherscan.io/address/0xeD01f8A737813F0bDA2D4340d191DBF8c2Cbcf30)      |
-| BendProtocolDataProvider         | 0x3811DA50f55CCF75376C5535562F5b4797822480                                                                                 |
-| UIPoolDataProvider               | 0x132E3E3eC6652299B235A26D601aa9C68806e3FE                                                                                 |
-| BendProtocolIncentivesController | 0x26FC1f11E612366d3367fc0cbFfF9e819da91C8d                                                                                 |
-| StakedBUNI                       | 0x647C509AF2A2b2294bB79fCE12DaEc8e7cf938f7                                                                                 |
-| Other Contracts                  | Using Methods in LendPoolAddressProvider to query them                                                                     |
+<table><thead><tr><th width="309.65499028268664">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>LendPoolAddressProvider</td><td><a href="https://etherscan.io/address/0x24451f47caf13b24f4b5034e1df6c0e401ec0e46#code">0x24451F47CaF13B24f4b5034e1dF6c0E401ec0e46</a></td></tr><tr><td>WETHGateway</td><td><a href="https://etherscan.io/address/0x3B968D2D299B895A5Fcf3BBa7A64ad0F566e6F88">0x3B968D2D299B895A5Fcf3BBa7A64ad0F566e6F88</a></td></tr><tr><td>PunkGateway</td><td><a href="https://etherscan.io/address/0xeD01f8A737813F0bDA2D4340d191DBF8c2Cbcf30">0xeD01f8A737813F0bDA2D4340d191DBF8c2Cbcf30</a></td></tr><tr><td>BendProtocolDataProvider</td><td>0x3811DA50f55CCF75376C5535562F5b4797822480</td></tr><tr><td>UIPoolDataProvider</td><td>0x132E3E3eC6652299B235A26D601aa9C68806e3FE</td></tr><tr><td>BendProtocolIncentivesController</td><td>0x26FC1f11E612366d3367fc0cbFfF9e819da91C8d</td></tr><tr><td>StakedBUNI</td><td>0x647C509AF2A2b2294bB79fCE12DaEc8e7cf938f7</td></tr><tr><td>Other Contracts</td><td>Using Methods in LendPoolAddressProvider to query them</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Goerli" %}
@@ -46,13 +37,13 @@ The below information can also be programmatically fetched by calling getReserve
 | ----- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | ETH   | Refer to WETH below or [WETH Gateway](../lending-protocol/weth-gateway.md#methods)                                    | Refer to WETH below                                                                                                        | Refer to WETH below                                                                                                        |
 | WETH  | [0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) | [0xeD1840223484483C0cb050E6fC344d1eBF0778a9](https://etherscan.io/address/0xeD1840223484483C0cb050E6fC344d1eBF0778a9#code) | [0x87ddE3A3f4b629E389ce5894c9A1F34A7eeC5648](https://etherscan.io/address/0x87ddE3A3f4b629E389ce5894c9A1F34A7eeC5648#code) |
+| USDT  | 0xdAC17F958D2ee523a2206206994597C13D831ec7                                                                            | [0x9631c79bfd6123a5b53307b6cdfb35f97606f954](https://etherscan.io/address/0x9631c79bfd6123a5b53307b6cdfb35f97606f954)      | 0x02716c55f49a9107467507b82f9889480949afe4                                                                                 |
+
+
 {% endtab %}
 
 {% tab title="Goerli" %}
-| Asset | Underlying Address                                                                                                    | bendToken Address                          | debtToken Address                          |
-| ----- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------ |
-| ETH   | Refer to WETH below                                                                                                   | Refer to WETH below                        | Refer to WETH below                        |
-| WETH  | [0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6](https://etherscan.io/address/0x3B968D2D299B895A5Fcf3BBa7A64ad0F566e6F88) | 0x57FEbd640424C85b72b4361fE557a781C8d2a509 | 0x9aB83A4886dCE3C0c1011f9D248249DD3eF64784 |
+<table><thead><tr><th width="150">Asset</th><th width="272">Underlying Address</th><th>bendToken Address</th><th>debtToken Address</th></tr></thead><tbody><tr><td>ETH</td><td>Refer to WETH below</td><td>Refer to WETH below</td><td>Refer to WETH below</td></tr><tr><td>WETH</td><td><a href="https://etherscan.io/address/0x3B968D2D299B895A5Fcf3BBa7A64ad0F566e6F88">0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6</a></td><td>0x57FEbd640424C85b72b4361fE557a781C8d2a509</td><td>0x9aB83A4886dCE3C0c1011f9D248249DD3eF64784</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 
