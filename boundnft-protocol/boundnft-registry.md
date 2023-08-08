@@ -6,6 +6,18 @@ The source code can be [found here](https://github.com/BoundNFT/boundnft-protoco
 
 ## Methods
 
+### allBNFTAssetLength
+
+**function allBNFTAssetLength()** external view returns (uint256)
+
+Query the length of all NFT assets.
+
+### getBNFTAddressesByIndex
+
+**function getBNFTAddressesByIndex(uint256 index)** external view returns (address bNftProxy, address bNftImpl)
+
+Query boundNFT contract address of given index.
+
 ### getBNFTAddresses
 
 **function getBNFTAddresses(address nftAsset)** external view returns (address bNftProxy, address bNftImpl)

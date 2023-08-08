@@ -6,9 +6,7 @@ The BoundNFT protocol is part of the BendDAO ecosystem.
 
 {% tabs %}
 {% tab title="Mainnet" %}
-| Contract Name | Address                                    |
-| ------------- | ------------------------------------------ |
-| BNFTRegistry  | 0x79d922DD382E42A156bC0A354861cDBC4F09110d |
+<table><thead><tr><th width="309.65499028268664">Contract Name</th><th>Address</th></tr></thead><tbody><tr><td>BNFTRegistry</td><td>0x79d922DD382E42A156bC0A354861cDBC4F09110d</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="Goerli" %}
@@ -20,7 +18,7 @@ The BoundNFT protocol is part of the BendDAO ecosystem.
 
 ## boundNFT Contracts
 
-The below information can also be programmatically fetched by calling getNftTokensAddresses().
+The below information can also be programmatically fetched by calling [BNFTRegistry](../boundnft-protocol/boundnft-registry.md) methods.
 
 {% tabs %}
 {% tab title="Mainnet" %}
