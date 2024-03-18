@@ -14,6 +14,10 @@ The BoundNFT protocol is part of the BendDAO ecosystem.
 | ------------- | ------------------------------------------ |
 | BNFTRegistry  | 0x37A76Db446bDB3EF1b73112a8D5E6868de06464f |
 {% endtab %}
+
+{% tab title="Sepolia" %}
+[https://github.com/BoundNFT/boundnft-protocol/blob/main/deployments/deployed-contracts-sepolia.json](https://github.com/BoundNFT/boundnft-protocol/blob/main/deployments/deployed-contracts-sepolia.json)
+{% endtab %}
 {% endtabs %}
 
 ## boundNFT Contracts
@@ -56,5 +60,11 @@ The below information can also be programmatically fetched by calling [BNFTRegis
 | CloneX      | 0x578bc56a145A3464Adc44635C23501653138c946 | 0x27F9996c228eE3A85AC898d49A3eFaAaDC44D1e6 |
 | Azuki       | 0x708c48AaA4Ea8B9E46Bd8DEb6470986842b9a16d | 0x302cE2Ddf378CaAabB990662aFdA1488b13Fc1B0 |
 | Moonbirds   | 0x784E3FcfC86F7806f52a24571d8534c916C8c609 | 0x8A291a0e671EDAcb76224A1fD933e332BCc981D8 |
+{% endtab %}
+
+{% tab title="Sepolia" %}
+Underlying Address: [https://github.com/BoundNFT/boundnft-protocol/blob/main/deployments/deployed-contracts-sepolia.json](https://github.com/BoundNFT/boundnft-protocol/blob/main/deployments/deployed-contracts-sepolia.json)
+
+BoundNFT Address: Query it using the BNFTRegistry contract method.
 {% endtab %}
 {% endtabs %}

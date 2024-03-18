@@ -20,4 +20,10 @@ The BendDAO Ape Staking provides the first pairing service in the market between
 | StakeManager   | [0x3d90c2Eb0f7919c843C2a26Af32B1b0f3033d54b](https://goerli.etherscan.io/address/0x3d90c2Eb0f7919c843C2a26Af32B1b0f3033d54b) |
 | StakeProxy     | [0xE91B922B2009D5b0A309017d9EE559059507eb37](https://goerli.etherscan.io/address/0xE91B922B2009D5b0A309017d9EE559059507eb37) |
 {% endtab %}
+
+{% tab title="Sepolia" %}
+ApeStaking V1: [https://github.com/BendDAO/bend-apestaking-v1/blob/main/deployments/deployed-contracts-sepolia.json](https://github.com/BendDAO/bend-apestaking-v1/blob/main/deployments/deployed-contracts-sepolia.json)
+
+ApeStaking V2: [https://github.com/BendDAO/bend-apestaking-v2/blob/main/deployments/deployed-contracts-sepolia.json](https://github.com/BendDAO/bend-apestaking-v2/blob/main/deployments/deployed-contracts-sepolia.json)
+{% endtab %}
 {% endtabs %}
